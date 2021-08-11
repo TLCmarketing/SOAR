@@ -1,0 +1,254 @@
+/* Scss Document */
+/*********************
+VARIABLES
+*********************/
+/*********************
+BREAKPOINTS
+*********************/
+/*********************
+
+
+STYLES
+*********************/
+.showProperties {
+  color: #eaaa21;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #eaaa21;
+}
+
+a {
+  color: #eaaa21;
+  text-decoration: none;
+}
+
+.showProperties:visited {
+  text-decoration: none;
+  color: #eaaa21;
+}
+.para {
+  text-align: left;
+  color: white;
+  line-height: 130%;
+}
+html, body {
+  padding: 0;
+  outline: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.header-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+  .header-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  header .cta {
+    width: 100%;
+    max-width: 400px;
+    background: #143c57;
+    padding: 10px 30px; }
+    header .cta .cta-image {
+      width: 60%;
+      margin: 20px auto;
+      max-width: 250px; }
+      header .cta .cta-image img {
+        width: 100%;
+        height: auto; }
+  header .header-image {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: url("img/properties/coryell-fire-pit.jpg") no-repeat center center;
+    background-size: cover; }
+    header .header-image .video-overlay {
+      position: relative;
+      width: 40%; }
+      header .header-image .video-overlay img {
+        width: 100%;
+        height: auto; }
+    @media (max-width: 480px) {
+      header .header-image .video-overlay {
+        width: 60%; } }
+  header .video {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; }
+    header .video .video-overlay {
+      position: relative;
+      width: 40%; }
+      header .video .video-overlay img {
+        width: 100%;
+        height: auto; }
+    @media (max-width: 480px) {
+      header .video .video-overlay {
+        width: 60%; } }
+  header .form {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    header .form .success {
+      color: white; }
+  header form {
+    width: 100%;
+    text-align: center; }
+    header form input[type=text] {
+      width: calc(100% - 44px);
+      border-radius: 5px;
+      border: 0;
+      background: white;
+      outline: none;
+      margin: 10px 0;
+      padding: 0 20px;
+      height: 30px;
+      border: 2px solid white;
+      -webkit-appearance: none; }
+      header form input[type=text]::placeholder {
+        text-transform: uppercase;
+        color: black; }
+      header form input[type=text]:focus {
+        outline: none; }
+      header form input[type=text].error-input {
+        border: 2px solid red; }
+    header form select {
+      width: 100%;
+      border: 2px solid white;
+      background: white;
+      margin: 10px 0;
+      padding: 10px 20px;
+      -webkit-appearance: none; }
+    header form input[type=submit] {
+      background: #eaaa21;
+      color: white;
+      border: 0;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px 50px;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      margin: 10px 0;
+      -webkit-appearance: none; }
+      header form input[type=submit]:focus {
+        outline: none; }
+      header form input[type=submit]:hover {
+        cursor: pointer; }
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column; }
+      header .cta {
+        max-width: 93%; } }
+  @media (max-width: 480px) {
+    header .cta {
+      max-width: 84%; } }
+
+h1 {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1em; }
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.3em; } }
+
+h2 {
+  color: #143c57;
+  text-align: center;
+  font-weight: 300; }
+
+  h3 {
+    color: #eaaa21;
+    text-align: left;
+    font-weight: 500; }
+
+p {
+  color: white;
+  width: 100%; }
+  p.legal {
+    font-size: .5em;
+    text-align: center; }
+
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px; }
+  article a {
+    color: white;
+    text-decoration: none; }
+  article .property {
+    width: 300px;
+    margin: 0 20px 40px 20px; }
+    article .property .title {
+      width: 100%;
+      height: 70px;
+      text-align: center;
+      background: #143c57;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      article .property .title img {
+        height: 70%; }
+    article .property .img-container {
+      width: 100%;
+      height: 250px;
+      position: relative; }
+      article .property .img-container .copy-overlay {
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: all .5s ease; }
+        article .property .img-container .copy-overlay ul {
+          list-style: none;
+          font-size: .9em;
+          padding-left: 5%;
+          width: 90%;
+          margin-top: 10%; }
+          article .property .img-container .copy-overlay ul li {
+            margin-bottom: 10px; }
+    article .property:hover .img-container .copy-overlay {
+      opacity: 1; }
+
+/*# sourceMappingURL=tlchousing_style.css.map */
+
+/* SOAR STYLES */
+
+.soar-container {
+  background-color: #d9d8d6;
+  padding: 50px;
+}

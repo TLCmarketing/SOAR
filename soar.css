@@ -1,0 +1,628 @@
+/* .container-fluid {
+    margin-left: 25px;
+    margin-right: 25px;
+
+} */
+
+.border {
+    background-color: #3f738d;
+    padding: 25px;
+    margin: 0px;
+}
+
+.soar-logo {
+    margin-top: 55px;
+    width: 400px;
+
+    /* max-width: 350px; */
+}
+
+ul {
+    padding: 0px; 
+}
+
+.title {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3f738d;
+    font-size: 3em;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 35px;
+}
+
+.about-div{
+    background-color:rgba(217,216,214,.5);
+    margin-top: 55px;
+    padding: 35px;
+}
+
+.site-image {
+    margin-top:35px;
+    margin-left: 35px;
+    margin-bottom:35px;
+    width: 650px;
+}
+
+.about-soar{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75em;
+    text-align: justify;
+    color: #143c57;
+    padding-left: 45px;
+    padding-right: 50px;
+}
+
+.icons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.soar-icon {
+    padding: 45px;
+    width: 225px;
+}
+
+.services-heading {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.soar-services {
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 175%;
+    /* padding-right: 50px; */
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.service-img {
+    width:875px;
+    padding-right: 30px;
+}
+
+.cta {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 200;
+    font-size: 2.25em;
+    letter-spacing: 1.25px;
+    color: white;
+    background-color: #3f738d;
+    margin-top: 75px;
+    margin-bottom: 85px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.footer-logos {
+     width: 250px;   
+}
+
+.phoenix {
+    margin-left: 200px;
+}
+
+.footer-img {
+    width: 100%;
+    height: auto;
+    opacity: .65;
+    margin-top: -50px;
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .soar-logo {
+        margin-top: 20px;
+        width: 300px;
+
+    }   
+
+    .about-div{
+        background-color:rgba(217,216,214,.5);
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .site-image{
+        margin-top:0px;
+        margin-left: 0px;
+        margin-bottom:0px;
+        width: auto;
+    }
+    
+    .title {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #3f738d;
+        font-size: 1.35em;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .about-soar{
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        text-align: center;
+        color: #143c57;
+        padding: 0px;
+    }
+
+    .icons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .soar-icon {
+        padding: 5px;
+        max-width: 40px;
+    }
+
+    .services-heading {
+        font-weight: 700;
+        font-size: 1.25em;
+        margin-bottom: 0px;
+    }
+
+    .soar-services {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        font-size: 1em;
+        text-align: center;
+        /* padding-right: 25px; */
+        line-height: auto;
+    }
+    
+    .service-img {
+        width:auto;
+        padding: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .cta {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 200;
+        font-size: 1em;
+        letter-spacing: 1.5px;
+        line-height: 140%;
+        color: white;
+        background-color: #3f738d;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 25px;
+        text-align: center;
+    
+    }
+
+    .footer-logos {
+        width: 75px;
+        padding: 0px;
+        padding-bottom: 45px;
+    }
+
+    .phoenix {
+        margin-left: 45px;
+    }
+
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .soar-logo {
+        margin-top: 20px;
+        width: 300px;
+
+    }   
+
+    .about-div{
+        background-color:rgba(217,216,214,.5);
+        margin-top: 30px;
+        padding: 25px;
+    }
+
+    .site-image{
+        margin-top:0px;
+        margin-left: 0px;
+        margin-bottom:0px;
+        width: auto;
+    }
+    
+    .title {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #3f738d;
+        font-size: 1.65em;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    .about-soar{
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.15em;
+        text-align: center;
+        color: #143c57;
+        padding: 0px;
+    }
+
+    .icons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .soar-icon {
+        padding: 15px;
+        width: 75px;
+    }
+
+    .services-heading {
+        font-weight: 700;
+        font-size: 1.25em;
+        margin-bottom: 0px;
+    }
+
+    .soar-services {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        font-size: 1em;
+        text-align: center;
+        /* padding-right: 25px; */
+        line-height: auto;
+    }
+    
+    .service-img {
+        width:auto;
+        padding: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .cta {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 200;
+        font-size: 1em;
+        letter-spacing: 1.5px;
+        line-height: 140%;
+        color: white;
+        background-color: #3f738d;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 25px;
+        text-align: center;
+    
+    }
+
+    .footer-logos {
+        width: 125px;
+        padding-bottom: 35px;
+    }
+
+    .phoenix {
+        margin-left: 85px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+     .soar-logo {
+        margin-top: 20px;
+        width: 350px;
+
+    }   
+
+    .about-div{
+        background-color:rgba(217,216,214,.5);
+        margin-top: 35px;
+        padding: 25px;
+    }
+
+    .site-image{
+        margin-top:0px;
+        margin-left: 0px;
+        margin-bottom:0px;
+        width: 400px;
+    }
+    
+    .title {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #3f738d;
+        font-size: 1.35em;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .about-soar{
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        text-align: justify;
+        color: #143c57;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .icons {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .soar-icon {
+        padding: 25px;
+        width: 110px;
+    }
+
+    .services-heading {
+        font-weight: 700;
+        font-size: 1.15em;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .soar-services {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        font-size: 1em;
+        text-align: center;
+        /* padding-right: 25px; */
+        line-height: auto;
+        padding: 0px;
+    }
+    
+    .service-img {
+        width:600px;
+        padding: 0px;
+        /* padding-right: 25px; */
+    }
+
+    .cta {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 200;
+        font-size: 1.25em;
+        letter-spacing: 1.25px;
+        color: white;
+        background-color: #3f738d;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 25px;
+        text-align: center;
+    
+    }
+
+    .footer-logos {
+        width: 150px;
+        
+    }
+
+    .phoenix {
+        margin-left: 105px;
+    }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .soar-logo {
+        margin-top: 35px;
+        width: 350px;
+
+    }   
+
+    .about-div{
+        background-color:rgba(217,216,214,.5);
+        margin-top: 35px;
+        padding: 25px;
+    }
+
+    .site-image{
+        margin: 0px;
+        width: 550px;
+        padding: 0px;
+    }
+    
+    .title {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #3f738d;
+        font-size: 1.65em;
+        text-align: left;
+        padding-top: 25px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .about-soar{
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.15em;
+        text-align: justify;
+        color: #143c57;
+        padding: 0px;
+    }
+
+    .icons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .soar-icon {
+        width: 155px;
+    }
+
+    .services-heading {
+        font-weight: 700;
+        font-size: 1.25em;
+        margin-bottom: 5px;
+    }
+    .soar-services {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        font-size: 1.15em;
+        text-align: center;
+        line-height: 160%;
+    }
+    
+    .service-img {
+        width:575px;
+        /* padding-right: 90px; */
+    }
+
+    .cta {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 200;
+        font-size: 1.5em;
+        letter-spacing: 1.25px;
+        color: white;
+        background-color: #3f738d;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        padding: 25px;
+        text-align: center;
+    
+    }
+
+    .footer-logos {
+        width: 200px;
+    }
+
+    .phoenix {
+        margin-left: 125px;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1199.98px) and (max-width: 1471.98px) {
+    
+    .soar-logo {
+        margin-top: 55px;
+        width: 400px;
+    
+        /* max-width: 350px; */
+    }
+
+    .about-div{
+        background-color:rgba(217,216,214,.5);
+        margin-top: 55px;
+        padding: 35px;
+    }
+    
+    .title {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #3f738d;
+        font-size: 2.5em;
+        text-align: left;
+        padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 35px;
+    }
+
+    .about-soar{
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.35em;
+        text-align: justify;
+        color: #143c57;
+        padding-left: 45px;
+        padding-right: 35px;
+    }
+
+    .icons {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .soar-icon {
+        padding: 40px;
+        width: 175px;
+    }
+
+    .services-heading {
+        font-weight: 700;
+        font-size: 1.25em;
+        margin-bottom: 10px;
+    }
+    .soar-services {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        font-size: 1.15em;
+        text-align: center;
+        padding-right: 15px;
+        line-height: 170%;
+
+    }
+    
+    .service-img {
+        width:600px;
+        /* padding-right: 105px; */
+        /* margin-right: 10px; */
+    }
+
+    .cta {
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 200;
+        font-size: 1.75em;
+        letter-spacing: 1.25px;
+        color: white;
+        background-color: #3f738d;
+        margin-top: 75px;
+        margin-bottom: 85px;
+        padding: 25px;
+        text-align: center;
+    
+    }
+
+    
+.footer-logos {
+    width: 225px;   
+}
+
+.phoenix {
+    margin-left: 115px;
+}
+    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+
+
+
+} */

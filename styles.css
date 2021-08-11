@@ -1,0 +1,32 @@
+
+h1 {
+color:#eaaa21;
+}
+h5 {
+color:white;
+}
+img {
+  width: 40%;
+  margin: 20px auto;
+  max-width: 300px;
+}
+html, body {
+  background-color:  #143c57;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin: 50px;
+    }
+.container-fluid {
+  background-color: #143c57;
+  align-content: center;
+  text-align: center;
+}
+
+input:invalid {
+  border: 2px dashed red;
+
+}
+input:invalid:required {
+  border: 2px dashed red;
+
+}
