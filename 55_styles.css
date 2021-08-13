@@ -65,6 +65,33 @@
     color: #143c57;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.prop-logos {
+    width: 300px;
+    padding: 15px;
+}
+
+/* .prop-img {
+    width: 500px;
+} */
+
+.city {
+    font-family: brandon-grotesque, sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+.amenities {
+    list-style-type: none;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.25em;
+    line-height: 150%;
+    padding-left: 0px;
 
 }
 footer {
