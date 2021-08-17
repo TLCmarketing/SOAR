@@ -113,11 +113,42 @@
     list-style-type: none;
     font-family: brandon-grotesque, sans-serif;
     font-size: 1.25em;
-    line-height: 150%;
+    line-height: 170%;
     padding-left: 0px;
-    text-align: center;
+    text-transform: uppercase;
+    color: #143c57;
+    margin-left: 45px;
+    margin-right: 45px;
 
 }
+
+.website:hover {
+    color: #f3b120;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.website:visited {
+    color:#3f738d;
+}
+
+.property-des {
+    width:698.5px;
+    height: 467.28px;
+    background-color:rgba(217,216,214,.5);
+    color: #143c57;
+    text-align: center;
+    padding-top: 25px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+    line-height: 200%;
+
+}
+
+/* .property-des li{
+   
+} */
 footer {
     font-family: brandon-grotesque, sans-serif;
     background-color: #143c57;
