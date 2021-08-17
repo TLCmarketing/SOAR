@@ -78,13 +78,19 @@
     padding: 25px;
 } */
 
-.city {
+/* .city {
     font-family: brandon-grotesque, sans-serif;
     text-transform: uppercase;
     margin-left: 50px;
     margin-bottom: 50px;
 
+} */
+
+.properties-info {
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 
 .property-name {
     font-family: brandon-grotesque, sans-serif;
@@ -95,9 +101,14 @@
     padding: 15px;
     margin-left: 45px;
     margin-right: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+    margin-top: -20px;
 }
 
+/* .property-name:hover {
+    color:#F3b120;
+    cursor: pointer;
+} */
 .amenities {
     list-style-type: none;
     font-family: brandon-grotesque, sans-serif;
