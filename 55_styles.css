@@ -70,6 +70,23 @@
 
 }
 
+.a-icons {
+    margin-top: 50px;
+    margin-bottom:15px;
+}
+
+.a-icon {
+    width: 150px;
+}
+
+.icon-sub {
+    font-family: brandon-grotesque, sans-serif;
+    color: #143c57;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+}
+
 .prop-logos {
     width: 300px;
 }
@@ -122,14 +139,14 @@
 
 }
 
+.website:visited {
+    color:#143c57;
+}
+
 .website:hover {
     color: #f3b120;
     cursor: pointer;
     text-decoration: none;
-}
-
-.website:visited {
-    color:#3f738d;
 }
 
 .property-des {
