@@ -70,6 +70,17 @@
 
 }
 
+.comm-para {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
 .a-icons {
     margin-top: 50px;
     margin-bottom:15px;
@@ -81,7 +92,7 @@
 
 .icon-sub {
     font-family: brandon-grotesque, sans-serif;
-    color: #143c57;
+    color: #3f738d;
     text-transform: uppercase;
     text-align: center;
     padding: 25px;
@@ -150,12 +161,13 @@
 }
 
 .property-des {
-    width:698.5px;
-    height: 467.28px;
+    object-fit: cover;
     background-color:rgba(217,216,214,.5);
+    background-size: inherit;
     color: #143c57;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 25px;
     font-family: brandon-grotesque, sans-serif;
     font-weight: 100;
     font-size: 1.25em;
@@ -175,4 +187,47 @@ footer {
     margin-top: 50px;
 
 }
+
+/* RESPONSIVE LAYOUTS */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .plus-logo {
+        padding: 25px;
+    }
+    .nav {
+        margin-top: 70px;
+        padding: 15px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-transform: uppercase;
+        
+    }
+    
+    .nav-link {
+        color: #143c57;
+        padding-left: 45px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
 
