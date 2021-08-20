@@ -268,8 +268,8 @@ footer {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .container-fluid {
-        margin: 0px;
-        padding: 0px;
+        margin: auto;
+        padding: auto;
     }
     body {
         margin: 0px;
@@ -277,6 +277,30 @@ footer {
     .plus-logo {
         padding: 25px;
         margin-bottom: 0px;
+    }
+
+    .nav {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 0px;
+        
+        
+    }
+    .nav-link {
+        color: #143c57;
+        padding-left: 0px;
+    }
+
+    .nav .nav-item .nav-link {
+        padding-right:25px;
+        padding-left: 25px;
     }
 }
 
@@ -296,7 +320,7 @@ footer {
     }
 
     .nav {
-        margin-top: 0px;
+        margin-top: 10px;
         padding-right: 0px;
         font-family: brandon-grotesque, sans-serif;
         font-weight: 400;
