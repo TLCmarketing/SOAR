@@ -192,33 +192,179 @@ footer {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    .container-fluid {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin: 0px;
+    }
     .plus-logo {
         padding: 25px;
+        margin-bottom: 0px;
     }
     .nav {
-        margin-top: 70px;
-        padding: 15px;
+        margin-top: 0px;
+        padding-right: 0px;
         font-family: brandon-grotesque, sans-serif;
         font-weight: 400;
-        font-size: 1em;
+        font-size: 1.5em;
         text-transform: uppercase;
+        padding-top: 0px;
+        
         
     }
-    
     .nav-link {
         color: #143c57;
-        padding-left: 45px;
+        padding-left: 0px;
     }
+
+    .nav .nav-item .nav-link {
+        padding-right:55px;
+        padding-left: 25px;
+    }
+
+    .caro-row {
+        background-color:rgba(217,216,214,.5);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 15px;
+    }
+    .carousel {
+       padding-top: 0px;
+       padding-left: 0px;
+       padding-right: 0px;
+       padding-bottom: 25px;
+    }
+    
+    .about-tlc {
+        margin-top: 10px;
+        /* padding-left: 50px; */
+        padding-right: 0px;
+        font-family: brandon-grotesque, sans-serif;
+    
+    }
+    
+    .para-head {
+        text-transform: uppercase;
+        font-size: 1.65em;
+        font-weight: 700;
+        color: #143c57;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+    .home-para {
+        font-size: 1.25em;
+        color: #143c57;
+        text-align: justify;
+    }
+
+    
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
+    .container-fluid {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        margin: 0px;
+    }
+    .plus-logo {
+        padding: 25px;
+        margin-bottom: 0px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
+    .container-fluid {
+        margin: auto;
+        padding: auto;
+    }
+    body {
+        margin: 0px;
+    }
+    .plus-logo {
+        padding: 25px;
+        margin-bottom: 0px;
+    }
+
+    .nav {
+        margin-top: 0px;
+        padding-right: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 0px;
+        
+        
+    }
+    .nav-link {
+        color: #143c57;
+        padding-left: 0px;
+    }
+
+    .nav .nav-item .nav-link {
+        padding-right:25px;
+        padding-left: 25px;
+    }
+
+    .caro-row {
+        background-color:rgba(217,216,214,.5);
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+
+
+    .about-tlc {
+        margin-top: 0px;
+        /* padding-left: 50px; */
+        padding-right: 35px;
+        font-family: brandon-grotesque, sans-serif;
+        text-align: center;
+    
+    }
+
+    .para-head {
+        text-transform: uppercase;
+        font-size:2.5em;
+        font-weight: 700;
+        color: #143c57;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .home-para {
+        font-size: 1.25em;
+        color: #143c57;
+        text-align: center;
+    }
+
+
+    .comm-feat {
+        font-size: 1.35em;
+    }
+    .property-des {
+        object-fit: cover;
+        background-color:rgba(217,216,214,.5);
+        background-size: inherit;
+        color: #143c57;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 150%;
+    
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
