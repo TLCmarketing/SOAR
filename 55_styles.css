@@ -191,7 +191,7 @@ footer {
 /* RESPONSIVE LAYOUTS */
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+/* @media (max-width:320px) {
     .container-fluid {
         margin: 0px;
         padding: 0px;
@@ -201,81 +201,7 @@ footer {
     }
     .plus-logo {
         padding: 25px;
-        margin-bottom: 0px;
-    }
-    .nav {
-        margin-top: 0px;
-        padding-right: 0px;
-        font-family: brandon-grotesque, sans-serif;
-        font-weight: 400;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        padding-top: 0px;
-        
-        
-    }
-    .nav-link {
-        color: #143c57;
-        padding-left: 0px;
-    }
-
-    .nav .nav-item .nav-link {
-        padding-right:55px;
-        padding-left: 25px;
-    }
-
-    .caro-row {
-        background-color:rgba(217,216,214,.5);
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-right: 0px;
-        margin-left: 0px;
-        padding: 15px;
-    }
-    .carousel {
-       padding-top: 0px;
-       padding-left: 0px;
-       padding-right: 0px;
-       padding-bottom: 25px;
-    }
-    
-    .about-tlc {
-        margin-top: 10px;
-        /* padding-left: 50px; */
-        padding-right: 0px;
-        font-family: brandon-grotesque, sans-serif;
-    
-    }
-    
-    .para-head {
-        text-transform: uppercase;
-        font-size: 1.65em;
-        font-weight: 700;
-        color: #143c57;
-        padding-bottom: 25px;
-        text-align: center;
-    }
-    
-    .home-para {
-        font-size: 1.25em;
-        color: #143c57;
-        text-align: justify;
-    }
-
-    
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    .container-fluid {
-        margin: auto;
-        padding: auto;
-    }
-    body {
-        margin: 0px;
-    }
-    .plus-logo {
-        padding: 25px;
+        padding-bottom: 10px;
         margin-bottom: 0px;
     }
 
@@ -302,6 +228,505 @@ footer {
         padding-right:25px;
         padding-left: 25px;
     }
+    
+    .carousel {
+        padding: 10px;
+        padding-bottom: 0px;
+     }
+
+     .about-tlc {
+        margin: 0px;
+        padding: 25px;
+    }
+
+   .para-head {
+       text-transform: uppercase;
+       font-size: 1.5em;
+       font-weight: 700;
+       color: #143c57;
+       padding: 10px;
+       padding-bottom: 10px;
+       margin-right: 0px;
+       text-align: center;
+       margin-top: 0px;
+   }
+   
+   .home-para {
+       font-size: 1.15em;
+       color: #143c57;
+       text-align: center;
+       font-family: brandon-grotesque, sans-serif;
+   }
+
+   .properties-info {
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+
+   .comm-head {
+       font-family: brandon-grotesque, sans-serif;
+       color: #143c57;
+       text-transform: uppercase;
+       text-align: center;
+       margin-bottom: 15px;
+       font-size: 1.5em;
+   
+   }
+   
+   .comm-para {
+       text-align: center;
+       margin: 0px;
+       margin-bottom: 25px;
+       font-family: brandon-grotesque, sans-serif;
+       font-size: 1.15em;
+       font-weight: 100; */
+       /* margin-left: 15px;
+       margin-right: 15px; */
+   
+   /* }
+
+   .a-icons {
+       margin-top: 30px;
+       margin-bottom:25px;
+   }
+   
+   .a-icon {
+       width: 130px;
+   }
+   
+   .icon-sub {
+       font-family: brandon-grotesque, sans-serif;
+       font-size: 1.25em;
+       color: #3f738d;
+       text-transform: uppercase;
+       text-align: center;
+       padding: 25px;
+       padding-bottom: 35px;
+   }
+
+   div#blackRock-caro.carousel.slide {
+       padding: 12px;
+       
+   }
+
+   div#commons-caro.carousel.slide {
+       padding: 12px;
+       padding-top: 25px;
+   }
+
+   div#monarch-caro.carousel.slide {
+       padding: 12px;
+       padding-top: 25px;
+   }
+
+   div#prom-caro.carousel.slide {
+       padding: 12px;
+       padding-top: 25px;
+   }
+
+  div#teravera-caro.carousel.slide {
+       padding: 12px;
+       padding-top: 25px;
+   }
+
+   div#vistas-caro.carousel.slide {
+       padding: 12px;
+       padding-top: 25px;
+   }
+
+   .property-name {
+       font-family: brandon-grotesque, sans-serif;
+       text-transform: uppercase;
+       font-weight: 500;
+       font-size: 1.25em;
+       color: white;
+       background-color: #143c57;
+       padding: 15px;
+       margin-left: 10px;
+       margin-right: 10px;
+       margin-bottom: 25px;
+       margin-top: 0px;
+   }
+
+   .amenities {
+       list-style-type: none;
+       font-family: brandon-grotesque, sans-serif;
+       font-size: 1.10em;
+       line-height: 130%;
+       padding:0px;
+       text-transform: uppercase;
+       color: #143c57;
+       margin-left: 0px;
+       margin-right: 0px;
+   
+   }
+
+   .comm-feat {
+       font-size: 1.40em;
+   }
+
+   .property-des {
+       object-fit: cover;
+       background-color:rgba(217,216,214,.5);
+       background-size: inherit;
+       color: #143c57;
+       text-align: center;
+       padding-top: 25px;
+       padding-bottom: 10px;
+       font-family: brandon-grotesque, sans-serif;
+       font-weight: 100;
+       font-size: .95em;
+       line-height: 144%;
+   
+   }
+} */
+@media (max-width: 575.98px) { 
+    .container-fluid {
+        margin: auto;
+        padding: auto;
+    }
+    body {
+        margin: 0px;
+    }
+    .plus-logo {
+        padding: 25px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .nav {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 0px;
+        
+        
+    }
+    .nav-link {
+        color: #143c57;
+        padding-left: 0px;
+    }
+
+    .nav .nav-item .nav-link {
+        padding-right:25px;
+        padding-left: 25px;
+    }
+    
+    .carousel {
+        padding: 25px;
+        padding-bottom: 0px;
+     }
+
+     .about-tlc {
+         margin: 0px;
+         padding: 25px;
+     }
+
+    .para-head {
+        text-transform: uppercase;
+        font-size: 2.25em;
+        font-weight: 700;
+        color: #143c57;
+        padding: 10px;
+        padding-bottom: 10px;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .home-para {
+        font-size: 1.25em;
+        color: #143c57;
+        text-align: center;
+    }
+
+    .properties-info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 2.5em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 25px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        font-weight: 100;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    
+    }
+
+    .a-icons {
+        margin-top: 30px;
+        margin-bottom:25px;
+    }
+    
+    .a-icon {
+        width: 130px;
+    }
+    
+    .icon-sub {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        color: #3f738d;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 25px;
+        padding-bottom: 35px;
+    }
+
+    div#blackRock-caro.carousel.slide {
+        padding: 12px;
+        
+    }
+
+    div#commons-caro.carousel.slide {
+        padding: 12px;
+        padding-top: 45px;
+    }
+
+    div#monarch-caro.carousel.slide {
+        padding: 12px;
+        padding-top: 45px;
+    }
+
+    div#prom-caro.carousel.slide {
+        padding: 12px;
+        padding-top: 45px;
+    }
+
+   div#teravera-caro.carousel.slide {
+        padding: 12px;
+        padding-top: 45px;
+    }
+
+    div#vistas-caro.carousel.slide {
+        padding: 12px;
+        padding-top: 45px;
+    }
+
+    .property-name {
+        font-family: brandon-grotesque, sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.75em;
+        color: white;
+        background-color: #143c57;
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+
+    .amenities {
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: .95em;
+        line-height: 130%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    .comm-feat {
+        font-size: 1.40em;
+    }
+
+    .property-des {
+        object-fit: cover;
+        background-color:rgba(217,216,214,.5);
+        background-size: inherit;
+        color: #143c57;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 100;
+        font-size: .95em;
+        line-height: 144%;
+    
+    }
+   
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .container-fluid {
+        margin: auto;
+        padding: auto;
+    }
+    body {
+        margin: 0px;
+    }
+    .plus-logo {
+        padding: 25px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .nav {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 0px;
+        
+        
+    }
+    .nav-link {
+        color: #143c57;
+        padding-left: 0px;
+    }
+
+    .nav .nav-item .nav-link {
+        padding-right:25px;
+        padding-left: 25px;
+    }
+    
+    .carousel {
+        padding: 25px;
+     }
+
+     .about-tlc {
+         margin: 0px;
+         padding: 35px;
+     }
+
+    .para-head {
+        text-transform: uppercase;
+        font-size: 2.75em;
+        font-weight: 700;
+        color: #143c57;
+        padding: 0px;
+        padding-bottom: 10px;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .home-para {
+        font-size: 1.25em;
+        color: #143c57;
+        text-align: center;
+    }
+
+    .properties-info {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 2.5em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 25px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        font-weight: 100;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    
+    }
+
+    .a-icons {
+        margin-top: 30px;
+        margin-bottom:25px;
+    }
+    
+    .a-icon {
+        width: 150px;
+    }
+    
+    .icon-sub {
+        font-family: brandon-grotesque, sans-serif;
+        color: #3f738d;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 25px;
+        padding-bottom: 55px;
+    }
+
+    .property-name {
+        font-family: brandon-grotesque, sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.75em;
+        color: white;
+        background-color: #143c57;
+        padding: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+
+    .amenities {
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1em;
+        line-height: 130%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
+    .comm-feat {
+        font-size: 1.45em;
+    }
+
+    .property-des {
+        object-fit: cover;
+        background-color:rgba(217,216,214,.5);
+        background-size: inherit;
+        color: #143c57;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 100;
+        font-size: 1.15em;
+        line-height: 165%;
+    
+    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
