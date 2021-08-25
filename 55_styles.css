@@ -482,8 +482,9 @@ footer {
     }
 
     .properties-info {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
     }
 
     .comm-head {
@@ -572,7 +573,7 @@ footer {
     }
 
     .amenities {
-        list-style-type: none;
+        /* list-style-type: none;
         font-family: brandon-grotesque, sans-serif;
         font-size: .95em;
         line-height: 130%;
@@ -580,12 +581,22 @@ footer {
         text-transform: uppercase;
         color: #143c57;
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 10px; */
+        display: none;
     
     }
 
     .small-amenities {
-        display: none;
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        text-align: center;
+        font-size: 1.15em;
+        line-height: 170%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        /* margin-left: 10px;
+        margin-right: 10px; */
     }
 
     .comm-feat {
@@ -738,7 +749,7 @@ footer {
     .amenities {
         list-style-type: none;
         font-family: brandon-grotesque, sans-serif;
-        font-size: 1em;
+        font-size: 1.05em;
         line-height: 130%;
         padding-left: 0px;
         text-transform: uppercase;
@@ -769,7 +780,7 @@ footer {
         line-height: 165%;
     
     }
-    
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
