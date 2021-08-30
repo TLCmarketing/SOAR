@@ -1,3 +1,7 @@
+.prop-grid {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .plus-logo {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -44,7 +48,7 @@
 .caro-row {
     background-color:rgba(217,216,214,.5);
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     padding: 50px;
 }
 .carousel-home {
@@ -57,13 +61,14 @@
     /* padding-right: 50px; */
     font-family: brandon-grotesque, sans-serif;
     padding-top: 15px;
-    padding-left: 35px;
+    padding-left:75px;
+    padding-right:75px;
 
 }
 
 .para-head {
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: 700;
     color: #143c57;
     padding-bottom: 25px;
@@ -81,15 +86,15 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 3em;
+    font-size: 4em;
 
 }
 
 .comm-para {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     font-family: brandon-grotesque, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 100;
     margin-left: 45px;
     margin-right: 45px;
@@ -156,7 +161,7 @@
 .amenities {
     list-style-type: none;
     font-family: brandon-grotesque, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.65em;
     line-height: 170%;
     padding-left: 0px;
     text-transform: uppercase;
@@ -164,6 +169,14 @@
     margin-left: 45px;
     margin-right: 45px;
 
+}
+
+.open {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #143c57;
 }
 
 .small-amenities {
@@ -213,6 +226,11 @@ footer {
 /* // Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width:375.98px) {
 
+    .prop-grid {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
     .plus-logo {
         padding: 15px;
         padding-bottom: 10px;
@@ -245,7 +263,8 @@ footer {
     .caro-row {
         background-color:rgba(217,216,214,.5);
         margin-top: 25px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+        padding: 0px;
     }
     .carousel {
        padding: 0px;
@@ -265,7 +284,7 @@ footer {
         font-weight: 700;
         color: #143c57;
         padding: 10px;
-        padding-top: 25px;
+        padding-top: 0px;
         margin: 0px;
         text-align: center;
         margin-bottom: 0px;
@@ -273,7 +292,7 @@ footer {
     }
     
     .home-para {
-        font-size: 1.25em;
+        font-size: 1.15em;
         color: #143c57;
         text-align: center;
         padding: 25px;
@@ -304,7 +323,7 @@ footer {
         margin: 0px;
         margin-bottom: 25px;
         font-family: brandon-grotesque, sans-serif;
-        font-size: 1.25em;
+        font-size: 1.15em;
         font-weight: 100;
         padding-left: 10px;
         padding-right: 10px;
@@ -391,7 +410,16 @@ footer {
     
     }
 
+    .open {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #143c57;
+    }
+
     .small-amenities {
+        display: inline;
         list-style-type: none;
         font-family: brandon-grotesque, sans-serif;
         text-align: center;
@@ -440,6 +468,12 @@ footer {
         margin: auto;
         padding: auto;
     }
+
+    .prop-grid {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
     body {
         margin: 0px;
     }
@@ -478,6 +512,18 @@ footer {
         padding-bottom: 0px;
      }
 
+     .caro-row {
+        background-color:rgba(217,216,214,.5);
+        margin-top: 25px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .carousel-home {
+        padding: 0px;
+        padding-top: 15px;
+     }
+
      .about-tlc {
          margin: 0px;
          padding: 25px;
@@ -499,6 +545,13 @@ footer {
         font-size: 1.25em;
         color: #143c57;
         text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .carousel-prop {
+        padding: 0px;
+        padding-bottom: 20px;
     }
 
     .properties-info {
@@ -524,8 +577,8 @@ footer {
         font-family: brandon-grotesque, sans-serif;
         font-size: 1.25em;
         font-weight: 100;
-        /* margin-left: 15px;
-        margin-right: 15px; */
+        margin-left: 15px;
+        margin-right: 15px;
     
     }
 
@@ -606,11 +659,20 @@ footer {
     
     }
 
+    .open {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #143c57;
+    }
+
     .small-amenities {
+        display: inline;
         list-style-type: none;
         font-family: brandon-grotesque, sans-serif;
         text-align: center;
-        font-size: 1.15em;
+        font-size: 1.05em;
         line-height: 170%;
         padding-left: 0px;
         text-transform: uppercase;
@@ -647,6 +709,12 @@ footer {
         margin: auto;
         padding: auto;
     }
+
+    .prop-grid {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
     body {
         margin: 0px;
     }
@@ -685,9 +753,19 @@ footer {
         padding: 25px;
      }
 
+
+     .caro-row {
+        background-color:rgba(217,216,214,.5);
+        margin-top: 35px;
+        margin-bottom: 50px;
+        padding: 15px;
+    }
+    .carousel-home {
+       padding: 15px;
+    }
      .about-tlc {
          margin: 0px;
-         padding: 35px;
+         padding: 15px;
      }
 
     .para-head {
@@ -780,6 +858,14 @@ footer {
     
     }
 
+    .open {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #143c57;
+    }
+
     .small-amenities {
         display: none;
     }
@@ -811,6 +897,12 @@ footer {
         margin: auto;
         padding: auto;
     }
+
+    .prop-grid {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
     body {
         margin: 0px;
     }
@@ -843,7 +935,7 @@ footer {
     .caro-row {
         background-color:rgba(217,216,214,.5);
         padding: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 45px;
     }
 
     .carousel .carousel-home {
@@ -855,9 +947,10 @@ footer {
     .about-tlc {
         margin-top: 0px;
         /* padding-left: 50px; */
-        padding-right: 35px;
+        padding: 25px;
         font-family: brandon-grotesque, sans-serif;
         text-align: center;
+
     
     }
 
@@ -876,9 +969,53 @@ footer {
         text-align: center;
     }
 
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0px;
+        font-size: 2.5em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 0px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        font-weight: 100;
+        padding: 25px;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    
+    }
 
     .comm-feat {
         font-size: 1.35em;
+    }
+
+    .icon-sub {
+        font-family: brandon-grotesque, sans-serif;
+        color: #3f738d;
+        font-size: 1.25em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .amenities {
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.35em;
+        line-height: 130%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        margin-left: 15px;
+        margin-right: 15px;
+    
     }
     .property-des {
         object-fit: cover;
@@ -905,6 +1042,12 @@ footer {
     .small-amenities {
         display: none;
     }
+
+    .prop-grid {
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
 
     body {
         margin: 0px;
@@ -935,6 +1078,16 @@ footer {
         padding-left: 25px;
     }
 
+    .caro-row {
+        background-color:rgba(217,216,214,.5);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 25px;
+    }
+    .carousel-home {
+       padding: 10px;
+    }
+
     .about-tlc {
         margin-top: 0px;
         /* padding-left: 50px; */
@@ -957,6 +1110,37 @@ footer {
         font-size: 1.15em;
         color: #143c57;
         text-align: justify;
+    }
+
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 2.5em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 25px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        font-weight: 100;
+        /* margin-left: 15px;
+        margin-right: 15px; */
+    
+    }
+
+    .icon-sub {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.5em;
+        color: #3f738d;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 25px;
     }
 
     .carousel-prop {
@@ -996,7 +1180,7 @@ footer {
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) and (max-width: 1499.98) { 
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) { 
     .small-amenities {
         display: none;
     }
@@ -1031,18 +1215,165 @@ footer {
     
     .para-head {
         text-transform: uppercase;
-        font-size: 2.5em;
+        font-size: 2.75em;
         font-weight: 700;
         color: #143c57;
-        padding-bottom: 25px;
+        padding-bottom: 15px;
     }
     
     .home-para {
-        font-size: 1.25em;
+        font-size: 1.5em;
         color: #143c57;
         text-align: justify;
     }
 
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 3em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin-bottom: 25px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.5em;
+        font-weight: 100;
+        margin-left: 45px;
+        margin-right: 45px;
+    
+    }
+    
+    .property-name {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 2.25em;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: white;
+        background-color: #143c57;
+        padding: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 25px;
+        /* margin-top: -20px; */
+    }
+
+    .amenities {
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.15em;
+        line-height: 130%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
 
  }
 
+ @media screen and (min-width: 1400px) and (max-width: 1899.98px) { 
+    .small-amenities {
+        display: none;
+    }
+
+    /* .container-fluid {
+        margin: auto;
+        padding: auto;
+    } */
+    /* body {
+        margin: 0px;
+    } */
+
+    .caro-row {
+        background-color:rgba(217,216,214,.5);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 30px;
+    }
+    .carousel-home {
+       padding: 15px;
+    }
+    
+    
+    .about-tlc {
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        font-family: brandon-grotesque, sans-serif;
+        padding-top: 15px;
+        padding-left: 35px;
+    
+    }
+    
+    .para-head {
+        text-transform: uppercase;
+        font-size: 3.5em;
+        font-weight: 700;
+        color: #143c57;
+        padding-bottom: 15px;
+    }
+    
+    .home-para {
+        font-size: 1.75em;
+        color: #143c57;
+        text-align: justify;
+    }
+
+    .comm-head {
+        font-family: brandon-grotesque, sans-serif;
+        color: #143c57;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 3.5em;
+    
+    }
+    
+    .comm-para {
+        text-align: center;
+        margin-bottom: 25px;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.75em;
+        font-weight: 100;
+        margin-left: 45px;
+        margin-right: 45px;
+    
+    }
+    
+    .property-name {
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 2.25em;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: white;
+        background-color: #143c57;
+        padding: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 25px;
+        /* margin-top: -20px; */
+    }
+
+    .amenities {
+        list-style-type: none;
+        font-family: brandon-grotesque, sans-serif;
+        font-size: 1.25em;
+        line-height: 130%;
+        padding-left: 0px;
+        text-transform: uppercase;
+        color: #143c57;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    }
+
+    .open {
+        font-size: 1.75em;
+    }
+
+ }
