@@ -118,6 +118,7 @@
 .prop-grid {
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .carousel-prop {
@@ -213,14 +214,49 @@
 /* .property-des li{
    
 } */
+
+.social-banner {
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.social-heading {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #143c57;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.social-icon {
+    color: #143c57;
+    padding-left: 20px;
+}
+
+
 .home-footer {
     font-family: brandon-grotesque, sans-serif;
-    background-color: #143c57;
-    padding: 25px;
+    background-color: #3f738d;
+    padding: 20px;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 
+}
+
+.footer-text {
+    margin: 0px;
+    font-size: 1.25em;
+}
+
+
+.fairhousing {
+    margin-left: 25px;
 }
 
 /* RESPONSIVE LAYOUTS */
@@ -463,6 +499,10 @@
         margin: 0px;
         margin-top: 25px;
     }
+
+    
+
+
 }
 
 @media screen and (min-width:376px) and (max-width: 575.98px) { 
@@ -701,6 +741,7 @@
         line-height: 144%;
     
     }
+
    
     
 }
@@ -888,6 +929,14 @@
         font-size: 1.15em;
         line-height: 165%;
     
+    }
+
+    .home-footer {
+        padding: 10px;
+    }
+
+    .fairhousing {
+        margin-right: 0px;
     }
 
 }
