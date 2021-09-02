@@ -153,7 +153,7 @@ function submitForm(e) {
         data: ajaxData,
         success: function(data){
             //console.dir(data);
-            //console.log('success');
+            // console.log('success');
             //window.location.href = 'index.html';
             //console.log($('.form').css('height'));
             //console.dir($('.form'));
