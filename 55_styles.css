@@ -215,7 +215,7 @@
    
 } */
 
-.social-banner {
+/* .social-banner {
     padding: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -236,8 +236,41 @@
 .social-icon {
     color: #143c57;
     padding-left: 20px;
+} */
+
+.form {
+    margin-top: 75px;
+    margin-right: 0px;
+    font-family: brandon-grotesque, sans-serif;
+    text-transform: uppercase;
+    margin-right: 0px;
+    
 }
 
+.form-head {
+    font-family: brandon-grotesque, sans-serif;
+    text-align: center;
+    color:#143c57;
+    margin-bottom: 40px;
+
+}
+
+label {
+    font-size: 1.25em;
+}
+
+.submit-btn {
+    background-color: #143c57;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.submit-btn:hover {
+    background-color: #f3b120;
+}
 
 .home-footer {
     font-family: brandon-grotesque, sans-serif;
