@@ -33,14 +33,6 @@
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/c2e1373053.js" crossorigin="anonymous"></script>
 
-
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-
-    <!-- <script src="tlchousing.js"></script> -->
-
      <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35554225-33"></script>
   <script>
@@ -122,7 +114,7 @@
           </div>
 
           <!-- Property Information Container -->
-          <div class="properties-info">
+          <div class="properties-info" id="property-info">
           <div class="row">
               <div class="col-lg-12 col-sm-12">
                   <h1 class="comm-head">Communities that fit <strong style="color: #f3b120">your</strong> lifestyle</h1>
@@ -193,7 +185,8 @@
                   </div>
                   <div class="row">
                     <div class="col-lg-12 text-center">
-                      <h1 class="property-name">Black Rock</h1>
+                      <a class="a-name" href="https://www.blackrockliving.com/nixa/black-rock/guest-card/contact-us/1" target="_blank"><h1 class="property-name" id="blackRock">Black Rock</h1></a>
+                      <!-- <h1 class="property-name"></h1> -->
                       <div class="row">
                         <div class="col-lg-12">
                           <p class="amenities">555 E. Gold St. Nixa, MO &bull; (417) 851-1751</p>
@@ -260,7 +253,8 @@
                     </div>
                     <div class="row">
                     <div class="col-lg-12 text-center">
-                      <h1 class="property-name" id="properties">Coryell Commons</h1>
+                      <!-- <h1 class="property-name" id="properties">Coryell Commons</h1> -->
+                      <a class="a-name" href="https://www.blackrockliving.com/nixa/black-rock/guest-card/contact-us/1" target="_blank"><h1 class="property-name">Coryell Commons</h1></a>
                       <div class="row">
                         <div class="col-lg-12">
                            <p class="amenities">248 E. Monastery St. Springfield, MO &bull; (417) 616-2552</p>
@@ -552,74 +546,6 @@
                   </div>
                 </div>
               </div>
-          
-          <!-- <div class="row align-items-center">
-            <div class="col-5 text-right">
-              <img src="img/soar/55-lifestyle.jpg" alt="">
-            </div> -->
-          
-            <!-- <div class="form">
-              <form method="post" name="55PlusSubmission" action="contactengine.php">
-                <input type="text" name="name" id="name" placeholder="name*" required>
-                <input type="text" name="email" id="email" placeholder="email*" required>
-                <input type="text" name="phone" id="phone" placeholder="phone number*" required>
-                <select name="property">
-                  <option value="">INTERESTED PROPERTY</option>
-                  <option value="Black Rock">Black Rock</option>
-                  <option value="Coryell Commons">Coryell Commons</option>
-                  <option value="Monarch">Monarch</option>
-                  <option value="Promenade Commons">Promenade Commons</option>
-                  <option value="Tera Vera">Tera Vera</option>
-                  <option value="Veranda Vistas">Veranda Vistas</option>
-                </select>
-                <input type="submit" value="submit">
-              </form>
-            </div> -->
-            <!-- <div class="col-lg-7 form" id="form-submit">
-              <h3 class="form-head">Interested in more information? We're here to help!</h3>
-              <form method="post" name="55PlusSubmission" action="contactengine.php">
-               <div class="form-group row align-items-center justify-content-center text-right">
-                 <label for="name" class="col-lg-3">First & Last Name:</label>
-                 <div class="col-lg-5">
-                   <input type="text" class="form-control" name="name" id="name" required>
-                 </div>
-               </div>
-               <div class="form-group row align-items-center justify-content-center text-right">
-                <label for="email" class="col-lg-3">Email:</label>
-                <div class="col-lg-5">
-                  <input type="text" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group row align-items-center justify-content-center text-right">
-                <label for="phone" class="col-lg-3">Phone Number:</label>
-                <div class="col-lg-5">
-                  <input type="text" class="form-control" name="phone" id="phone" required>
-                </div>
-              </div>
-              <div class="form-group row align-items-center justify-content-center text-right">
-                <label for="property" class="col-lg-3">Interested Community:</label>
-                <div class="col-lg-5">
-                <select class="form-control" name="property" id="property">
-                  <option value="">Please choose a community</option>
-                  <option value="Black Rock">Black Rock</option>
-                  <option value="Coryell Commons">Coryell Commons</option>
-                  <option value="Monarch">Monarch</option>
-                  <option value="Promenade Commons">Promenade Commons</option>
-                  <option value="Tera Vera">Tera Vera</option>
-                  <option value="Veranda Vistas">Veranda Vistas</option>
-                </select>
-              </div>
-              </div>
-              <div class="col-lg-12 justify-content-center text-center">
-                <input class="btn btn-lg submit-btn" type="submit" value="submit">
-              </div>
-              <div class="success" style="color:#143c57;">
-
-              </div>
-              </form>
-            </div> -->
-          <!-- </div>
-        </div> -->
         <!-- Row 3 Ends Below -->
         </div>
           <!-- Container Ends Below -->
@@ -642,10 +568,8 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <!-- Form Validator -->
-    <script src="form-check.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="55script.js"></script>
+
   </body>
 </html>

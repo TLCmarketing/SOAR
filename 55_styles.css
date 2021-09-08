@@ -121,6 +121,11 @@
     margin-bottom: 50px;
 }
 
+.prop-grid .property-name:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .carousel-prop {
     padding: 35px;
     padding-bottom: 20px;
@@ -155,12 +160,15 @@
     margin-right: 35px;
     margin-bottom: 25px;
     /* margin-top: -20px; */
+
 }
 
-/* .property-name:hover {
-    color:#F3b120;
-    cursor: pointer;
-} */
+.a-name:hover {
+    text-decoration: none;
+
+}
+
+
 .amenities {
     list-style-type: none;
     font-family: brandon-grotesque, sans-serif;
