@@ -121,10 +121,6 @@
     margin-bottom: 50px;
 }
 
-.prop-grid .property-name:hover {
-    cursor: pointer;
-    text-decoration: none;
-}
 
 .carousel-prop {
     padding: 35px;
@@ -166,6 +162,24 @@
 .a-name:hover {
     text-decoration: none;
 
+}
+
+.info-btn {
+    background-color: #143c57;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: brandon-grotesque, sans-serif;
+
+}
+
+.info-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #f3b120;
 }
 
 
