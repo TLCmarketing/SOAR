@@ -1009,7 +1009,7 @@ label {
         padding: 15px;
         border-radius: 5px;
         font-family: brandon-grotesque, sans-serif;
-        font-size: .75em;
+        font-size: .70em;
     
     }
 
@@ -1182,8 +1182,8 @@ label {
     }
 
     .btn-con {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .info-btn {
