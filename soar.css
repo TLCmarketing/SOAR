@@ -1,18 +1,14 @@
-/* .container-fluid {
-    margin-left: 25px;
-    margin-right: 25px;
 
-} */
-
-.border {
+/* .border {
     background-color: #3f738d;
     padding: 25px;
     margin: 0px;
-}
+} */
 
 .soar-logo {
-    margin-top: 50px;
-    width: 400px;
+    width: 350px;
+    padding-left: 35px;
+    padding-bottom: 15px;
 
     /* max-width: 350px; */
 }
@@ -36,14 +32,15 @@ ul {
 
 .about-div{
     background-color:rgba(217,216,214,.5);
-    margin-top: 45px;
-    padding: 35px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding: 50px;
 }
 
 .site-image {
-    margin-top:35px;
-    margin-left: 35px;
-    margin-bottom:35px;
+    margin-top:25px;
+    /* margin-left: 25px; */
+    margin-bottom:25px;
     width: 650px;
 }
 
@@ -51,7 +48,7 @@ ul {
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.75em;
+    font-size: 1.5em;
     text-align: justify;
     color: #143c57;
     padding-left: 45px;
@@ -77,9 +74,7 @@ ul {
     font-size: 1.5em;
     text-align: center;
     line-height: 175%;
-    /* padding-right: 50px; */
-    padding: 0px;
-    margin: 0px;
+
 
 }
 
@@ -118,6 +113,15 @@ ul {
 
 }
 
+.home-footer {
+    margin: 0px;
+}
+
+.soar-footer {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 
 
@@ -125,7 +129,8 @@ ul {
 @media (max-width: 575.98px) {
     .soar-logo {
         margin-top: 20px;
-        width: 300px;
+        width: 250px;
+        padding: 0px;
 
     }   
 
@@ -133,6 +138,7 @@ ul {
         background-color:rgba(217,216,214,.5);
         margin-top: 30px;
         padding: 15px;
+        margin:0px;
     }
 
     .site-image{
@@ -152,6 +158,8 @@ ul {
         text-align: center;
         padding-top: 25px;
         padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .about-soar{
@@ -230,7 +238,8 @@ ul {
 
     .soar-logo {
         margin-top: 20px;
-        width: 300px;
+        width: 250px;
+        padding: 0px;
 
     }   
 
@@ -330,11 +339,13 @@ ul {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-     .soar-logo {
-        margin-top: 20px;
-        width: 350px;
-
-    }   
+    .soar-logo {
+        width: 200px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    
+        /* max-width: 350px; */
+    }
 
     .about-div{
         background-color:rgba(217,216,214,.5);
@@ -435,10 +446,12 @@ ul {
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     .soar-logo {
-        margin-top: 35px;
-        width: 350px;
-
-    }   
+        width: 275px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    
+        /* max-width: 350px; */
+    }  
 
     .about-div{
         background-color:rgba(217,216,214,.5);
@@ -529,8 +542,9 @@ ul {
 @media (min-width: 1199.98px) and (max-width: 1471.98px) {
     
     .soar-logo {
-        margin-top: 55px;
-        width: 400px;
+        width: 300px;
+        padding-left: 35px;
+        padding-bottom: 5px;
     
         /* max-width: 350px; */
     }
@@ -538,7 +552,7 @@ ul {
     .about-div{
         background-color:rgba(217,216,214,.5);
         margin-top: 55px;
-        padding: 35px;
+        padding: 25px;
     }
     
     .title {
@@ -547,18 +561,19 @@ ul {
         font-weight: 700;
         text-transform: uppercase;
         color: #3f738d;
-        font-size: 2.5em;
+        font-size: 2.25em;
         text-align: left;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         padding-left: 45px;
-        padding-right: 35px;
+        padding-right: 25px;
+        margin: 0px;
     }
 
     .about-soar{
         font-family: brandon-grotesque, sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 1.35em;
+        font-size: 1.25em;
         text-align: justify;
         color: #143c57;
         padding-left: 45px;
@@ -605,6 +620,8 @@ ul {
         background-color: #3f738d;
         margin-top: 75px;
         margin-bottom: 85px;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 25px;
         text-align: center;
     
