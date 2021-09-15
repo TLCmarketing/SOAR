@@ -6,7 +6,7 @@
 } */
 
 .soar-logo {
-    width: 350px;
+    width: 325px;
     padding-left: 35px;
     padding-bottom: 15px;
 
@@ -26,7 +26,7 @@ ul {
     font-size: 3em;
     text-align: left;
     padding-bottom: 15px;
-    padding-left: 45px;
+    padding-left: 35px;
     padding-right: 35px;
 }
 
@@ -51,8 +51,7 @@ ul {
     font-size: 1.35em;
     text-align: justify;
     color: #143c57;
-    padding-left: 45px;
-    padding-right: 50px;
+    padding-left:35px;
 }
 
 .icons {
@@ -60,7 +59,7 @@ ul {
     margin-bottom: 50px;
 }
 .soar-icon {
-    padding: 45px;
+    padding: 40px;
     width: 225px;
 }
 
@@ -109,6 +108,7 @@ ul {
     width: 100%;
     height: auto;
     opacity: .65;
+    margin-top: -50px;
 
 }
 
@@ -121,8 +121,10 @@ ul {
 @media (max-width: 575.98px) {
 
     .container-fluid {
-       padding:0px;
+        margin: auto;
+        padding: auto;
     }
+
     .soar-logo {
         margin-top: 20px;
         width: 250px;
@@ -139,7 +141,7 @@ ul {
     }
 
     .site-image{
-        margin-top:0px;
+        margin-top:25px;
         margin-left: 0px;
         margin-bottom:0px;
         width: auto;
@@ -167,6 +169,10 @@ ul {
         text-align: center;
         color: #143c57;
         padding: 0px;
+    }
+
+    .caro-row-soar {
+        margin-bottom: 15px;
     }
 
     .icons {
@@ -204,14 +210,14 @@ ul {
     .cta {
         font-family: brandon-grotesque, sans-serif;
         font-weight: 200;
-        font-size: 1em;
+        font-size: .90em;
         letter-spacing: 1.5px;
         line-height: 140%;
         color: white;
         background-color: #3f738d;
         margin-top: 40px;
         margin-bottom: 40px;
-        padding: 25px;
+        padding: 20px;
         text-align: center;
     
     }
@@ -226,6 +232,10 @@ ul {
         margin-left: 45px;
     }
 
+    .home-footer {
+        margin: 0px;
+    }
+
 
 
 
@@ -233,7 +243,10 @@ ul {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+    .container-fluid {
+        margin: auto;
+        padding: auto;
+    }
 
     .soar-logo {
         margin-top: 20px;
@@ -263,7 +276,7 @@ ul {
         color: #3f738d;
         font-size: 1.65em;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 15px;
         padding-bottom: 0px;
     }
 
@@ -275,6 +288,10 @@ ul {
         text-align: center;
         color: #143c57;
         padding: 0px;
+    }
+
+    .caro-row-soar {
+        margin-bottom: 10px;
     }
 
     .icons {
@@ -340,7 +357,7 @@ ul {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     .soar-logo {
-        width: 200px;
+        width: 175px;
         padding-left: 0px;
         padding-bottom: 0px;
     
@@ -358,6 +375,7 @@ ul {
         margin-left: 0px;
         margin-bottom:0px;
         width: 400px;
+        padding: 0px;
     }
     
     .title {
@@ -383,6 +401,10 @@ ul {
         color: #143c57;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .caro-row-soar {
+        margin-bottom: 10px;
     }
 
     .icons {
@@ -447,7 +469,7 @@ ul {
 
     .soar-logo {
         width: 275px;
-        padding-left: 0px;
+        padding-left: 15px;
         padding-bottom: 0px;
     
         /* max-width: 350px; */
@@ -473,9 +495,9 @@ ul {
         color: #3f738d;
         font-size: 1.65em;
         text-align: left;
-        padding-top: 25px;
+        padding-top: 15px;
         padding-bottom: 0px;
-        padding-left: 0px;
+        padding-left: 15px;
     }
 
     .about-soar{
@@ -485,15 +507,19 @@ ul {
         font-size: 1.15em;
         text-align: justify;
         color: #143c57;
-        padding: 0px;
+        padding-left:15px;
     }
 
     .icons {
-        margin-top: 15px;
+        margin-top: 0px;
         margin-bottom: 15px;
     }
     .soar-icon {
         width: 155px;
+    }
+
+    .caro-row-soar {
+        margin-bottom: 10px;
     }
 
     .services-heading {
@@ -564,7 +590,7 @@ ul {
         font-size: 2.25em;
         text-align: left;
         padding-bottom: 10px;
-        padding-left: 45px;
+        padding-left: 35px;
         padding-right: 25px;
         margin: 0px;
     }
@@ -576,8 +602,7 @@ ul {
         font-size: 1.25em;
         text-align: justify;
         color: #143c57;
-        padding-left: 45px;
-        padding-right: 35px;
+        padding-left: 35px;
     }
 
     .icons {
